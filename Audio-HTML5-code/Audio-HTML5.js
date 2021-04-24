@@ -14,7 +14,7 @@ var autostarts	= "yes"			// AUTO START MUSIC | yes | no |
 var audiowidth	= "300"			// WIDTH OF PLAYER
 var borderw	= "0"			// BORDER WIDTH AROUND PLAYER
 var bordcolor	= "0066FF"		// BORDER COLOR
-var centerp	= "no"			// CENTER PLAYER | yes | no |
+var centerp	= "yes"			// CENTER PLAYER | yes | no |
 
 
 // -----------------------------------------------
