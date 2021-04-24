@@ -17,7 +17,23 @@ html, body, #main, #map {
 .info .panel-body {
     background: transparent;
 }
-
+.responsive-embed-container {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	max-width: 100% !important;
+}
+.embed-responsive-16by9 {
+  	padding-bottom: 56.25%;
+}
+.responsive-embed-container iframe, .responsive-embed-container object, .responsive-embed-container embed {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
 #request {
     position: relative;
     background: #fcc1d4 none repeat scroll 0 0;
